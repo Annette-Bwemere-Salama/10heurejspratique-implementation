@@ -38,3 +38,22 @@ const quizData = [
 
     }
 ]
+const questionEl = document.getElementById('question');
+const a_text = document.querySelector("#a_text");
+const b_text = document.querySelector("#b_text");
+const c_text = document.querySelector("#c_text");
+const d_text = document.querySelector("#d_text");
+
+currentQuiz = 0;
+
+loadQuiz();
+
+function loadQuiz() {
+    const currentQuizData = quizData[currentQuestion];
+    questionEl.innerHTML = currentQuizData.question;
+    a_text.innerText = currentQuizData.a;
+    a_text.innerText = currentQuizData.a;
+    a_text.innerText = currentQuizData.a;
+
+    currentQuestion++;
+}
