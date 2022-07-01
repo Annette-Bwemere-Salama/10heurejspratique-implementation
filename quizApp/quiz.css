@@ -31,19 +31,35 @@ body {
 
 }
 
+h2 {
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
     color: whitesmoke;
 }
 
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem O;
+
+}
+
 button {
     background-color: #8e44ad;
     border: none;
     color: white;
+    cursor: pointer;
     display: block;
     font-family: inherit;
     font-size: 1.3rem;
     width: 100%;
     padding: 1remg;
+}
+
+button:hover {
+    background-color: #732d91;
 }
