@@ -1,42 +1,187 @@
 const quizData = [
     {
-        question: 'Quel est le chef lieu de la province du nord-kivu?',
+        question: 'Quel est le Chef-lieu de la province du Nord-kivu?',
         a: 'BOMA',
         b: 'NGOMA',
         c: 'GOMA',
         d: 'BUKAVU',
         correct: 'c'
     }, {
-        question: 'What is the most user programming languaga in 2012?',
-        a: 'java',
-        b: 'C',
-        c: 'python',
-        d: 'Javascript',
+        question: 'Quel est le Chef-lieu de la province de Kinshasa ?',
+        a: 'KINSHASA',
+        b: 'KWILU',
+        c: 'KIKWITE',
+        d: 'KINDU',
         correct: 'a'
     }, {
-        question: 'Who is he president of Us?',
-        a: 'Florin Pop',
-        b: 'Donald Trump',
-        c: 'Ivan Saldano',
-        d: 'Mihai Andrei',
+        question: 'Quel est le Chef-lieu de la province du Sud kivu?',
+        a: 'GOMA',
+        b: 'BUKAVU',
+        c: 'KINDU',
+        d: 'MBANDAGA',
         correct: 'b'
     }, {
-        question: 'what does HTML stand for??',
-        a: 'Hypert Markup langanguage',
-        b: 'cascading StyLE Sheet',
-        c: 'Jason Objeect Notation',
-        d: 'Helicopters Terminals Motarboats Lamborginis',
+        question: 'Quel est le Chef-lieu de la province de SANKURU ?',
+        a: 'LUSAMBO',
+        b: 'KIKWITI',
+        c: 'KENGE',
+        d: 'KISANGANI',
         correct: 'a'
     }, {
-        question: 'What year was Javascript Launched?',
-        a: '1996',
-        b: '1995',
-        c: '1994',
-        d: 'none of the above',
+        question: 'Quel est le Chef-lieu de la province de Tshuapa ?',
+        a: 'KIKWIT',
+        b: 'KISANGANI',
+        c: 'KINSHASA',
+        d: 'BOENDE',
         correct: 'd'
     }, {
-
-    }
+        question: 'Quel est le Chef-lieu de la province de Tshopo',
+        a: 'BOMA',
+        b: 'NGOMA',
+        c: 'Kisangani',
+        d: 'BUKAVU',
+        correct: 'c'
+    }, {
+        question: 'Quel est le Chef-lieu de la province du Tanganyika?',
+        a: 'Kalemie',
+        b: 'NGOMA',
+        c: 'Kalemire',
+        d: 'BUKAVU',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province du Sud-Ubangi?',
+        a: 'Gemena',
+        b: 'WALUNGU',
+        c: 'KINSHASA',
+        d: 'KISANGANI',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province du NORD-UBANGI?',
+        a: 'BARAKA',
+        b: 'KADUTU',
+        c: 'GBADOLITE',
+        d: 'MALEMIE',
+        correct: 'c'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de MONGALA?',
+        a: 'INONGO',
+        b: 'LISALA',
+        c: 'KINDU',
+        d: 'BUKAVU',
+        correct: 'b'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de MANIEMA?',
+        a: 'INONGO',
+        b: 'KIKWIT',
+        c: 'KALEMIE',
+        d: 'KINDU',
+        correct: 'd'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de MAI-NDOMBE?',
+        a: 'KOLWEZI',
+        b: 'KABINDA',
+        c: 'INONGO',
+        d: 'KENGE',
+        correct: 'c'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de LUALABA?',
+        a: 'GOMA',
+        b: 'KINSHASA',
+        c: 'KOLWEZI',
+        d: 'KABINDA',
+        correct: 'c'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de LOMAMI?',
+        a: 'KABINDA',
+        b: 'KAMINA',
+        c: 'KALEMI',
+        d: 'KOLWEZI',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de KWILI',
+        a: 'KENGE',
+        b: 'KIKWIT',
+        c: 'GOMA',
+        d: 'MATADI',
+        correct: 'b'
+    }, {
+        question: 'Quel est le Chef-lieu de la province KWANGO?',
+        a: 'KENGE',
+        b: 'MATADI',
+        c: 'ISIRO',
+        d: 'ITURI',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de KONGO-CENTRAL?',
+        a: 'ISIRO',
+        b: 'NGOMA',
+        c: 'MATADI',
+        d: 'MBUJI-MAYI',
+        correct: 'c'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de KASAI-OCCIDENTAL?',
+        a: 'LUEBO',
+        b: 'INONGO',
+        c: 'MATADI',
+        d: 'ISIRO',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de KASAI ORIENTAL?',
+        a: 'KANANGA',
+        b: 'MBUJI-MAYI',
+        c: 'KENGE',
+        d: 'KINDU',
+        correct: 'b'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de KASAI CENTRAL?',
+        a: 'KANANGA',
+        b: 'MBUJIMAYI',
+        c: 'KENGE',
+        d: 'BKINDU',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province d\'ITURI',
+        a: 'BOMA',
+        b: 'BUNIA',
+        c: 'BANDUNDU',
+        d: 'BUKAVU',
+        correct: 'b'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de BAS-UELE?',
+        a: 'BUTA',
+        b: 'BUNIA',
+        c: 'BANDUNDU',
+        d: 'BUKAVU',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de HAUT-UELE?',
+        a: 'BOMA',
+        b: 'NGOMA',
+        c: 'GOMA',
+        d: 'ISIRO',
+        correct: 'd'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de HAUT-LOMAMI?',
+        a: 'BOMA',
+        b: 'NGOMA',
+        c: 'GOMA',
+        d: 'KAMINA',
+        correct: 'd'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de HAUT-KATANGA?',
+        a: 'LUBUMBASHI',
+        b: 'INOGNO',
+        c: 'KIKWIT',
+        d: 'KENGE',
+        correct: 'a'
+    }, {
+        question: 'Quel est le Chef-lieu de la province de l\'EQUATEUR',
+        a: 'BOMA',
+        b: 'NGOMA',
+        c: 'MBANDAKA',
+        d: 'BUKAVU',
+        correct: 'c'
+    },
 ]
 const questionEl = document.getElementById('question');
 const a_text = document.querySelector("#a_text");
@@ -48,6 +193,7 @@ const submitBtn = document.querySelector('#submit');
 console.log(submitBtn);
 
 let currentQuiz = 0;
+let score = 0;
 
 loadQuiz();
 
@@ -62,17 +208,39 @@ function loadQuiz() {
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
 
-    currentQuestion++;
+}
+function getSelected() {
+
+    const answerEls = document.querySelectorAll(".answer");
+
+    let answer = undefined;
+
+    answerEls.forEach((answerEl) => {
+        if (answerEl.checked) {
+            answer = answerEl.id;
+        }
+    });
+
+    return answer;
+
 }
 
 submitBtn.addEventListener('click', () => {
-    currentQuestion++;
+    //check to see the answer
+    const answer = getSelected();
+
+    //console.log(answer);
+    if (answer) {
+        if (answer === quizData[currentQuiz].correct) {
+            score++;
+        }
+    }
+    currentQuiz++;
     if (currentQuiz < quizData.length) {
         loadQuiz();
     } else {
-        //TODO: Show resultas
+        //TODO: Show results
         alert("You finished get yourself an orange lemonade");
     }
 
-    loadQuiz();
-})
+});
