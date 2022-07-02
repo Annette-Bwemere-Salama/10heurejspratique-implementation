@@ -240,7 +240,7 @@ submitBtn.addEventListener('click', () => {
         loadQuiz();
     } else {
         //TODO: Show results
-        alert("You finished get yourself an orange lemonade");
+        alert("FELICITATION CHAMPION TU AS PARCOURU TOUTES LES PROVINCES DE NOTRE CHER PAYS CONGO.");
     }
 
 });
