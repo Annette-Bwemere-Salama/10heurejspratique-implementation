@@ -183,6 +183,8 @@ const quizData = [
         correct: 'c'
     },
 ]
+const answerEls = document.querySelectorAll('.answer');
+const quiz = document.getElementById('quiz');
 const questionEl = document.getElementById('question');
 const a_text = document.querySelector("#a_text");
 const b_text = document.querySelector("#b_text");
@@ -190,17 +192,16 @@ const c_text = document.querySelector("#c_text");
 const d_text = document.querySelector("#d_text");
 const submitBtn = document.querySelector('#submit');
 
-console.log(submitBtn);
-
 let currentQuiz = 0;
+
 let score = 0;
 
 loadQuiz();
 
 function loadQuiz() {
+    deselectAnswers();
     const currentQuizData = quizData
     [currentQuiz];
-
 
     questionEl.innerHTML = currentQuizData.question;
     a_text.innerText = currentQuizData.a;
@@ -211,7 +212,6 @@ function loadQuiz() {
 }
 function getSelected() {
 
-    const answerEls = document.querySelectorAll(".answer");
 
     let answer = undefined;
 
@@ -222,6 +222,11 @@ function getSelected() {
     });
 
     return answer;
+}
+function deselectAnswers() {
+    answerEls.forEach((answerEl) => {
+        answerEl.checked = false;
+    });
 
 }
 
@@ -239,8 +244,9 @@ submitBtn.addEventListener('click', () => {
     if (currentQuiz < quizData.length) {
         loadQuiz();
     } else {
-        //TODO: Show results
+        quiz.innerHTML = `<h2>Tes bonnes reponses correcte sont ${score}/${quizData.length} questions.</h2>`
+        /*TODO: Show results
         alert("FELICITATION CHAMPION TU AS PARCOURU TOUTES LES PROVINCES DE NOTRE CHER PAYS CONGO.");
-    }
+    */}
 
 });
