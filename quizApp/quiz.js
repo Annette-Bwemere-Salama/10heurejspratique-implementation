@@ -244,7 +244,8 @@ submitBtn.addEventListener('click', () => {
     if (currentQuiz < quizData.length) {
         loadQuiz();
     } else {
-        quiz.innerHTML = `<h2>Tes bonnes reponses correcte sont ${score}/${quizData.length} questions.</h2>`
+        quiz.innerHTML =
+            `<h2>Tes bonnes reponses correcte sont ${score}/${quizData.length} questions.</h2> <button onclick="location.reload()">Recommencer</button>`
         /*TODO: Show results
         alert("FELICITATION CHAMPION TU AS PARCOURU TOUTES LES PROVINCES DE NOTRE CHER PAYS CONGO.");
     */}
