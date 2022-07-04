@@ -40,6 +40,7 @@ header input {
     background-color: #eee;
     border: none;
     border-radius: 3px;
+    font-family: inherit;
     padding: 0.5rem 1rem;
 }
 
@@ -53,7 +54,7 @@ header button {
 
 .fav-container {
     background-color: rgb(233, 190, 255);
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
     text-align: center;
 }
 
