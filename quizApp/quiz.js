@@ -8,11 +8,11 @@ const quizData = [
         correct: 'c'
     }, {
         question: 'Quel est le Chef-lieu de la province de Kinshasa ?',
-        a: 'KINSHASA',
+        a: 'KIKWIT',
         b: 'KWILU',
-        c: 'KIKWITE',
+        c: 'KINSHASA',
         d: 'KINDU',
-        correct: 'a'
+        correct: 'c'
     }, {
         question: 'Quel est le Chef-lieu de la province du Sud kivu?',
         a: 'GOMA',

@@ -13,24 +13,31 @@
 <body>
     <!--h1>Testez vos connaissances sur les provinces de la RDC</h1-->
     <div class="quiz-container" id="quiz">
-        <div class="quiz-header">
-            <h2 id="question">Question text</h2>
-            <ul>
-                <li>
-                    <input type="radio" id="a" name="answer" class="answer"><label id="a_text" for="a"></label></input>
-                </li>
-                <li>
-                    <input type="radio" id="b" name="answer" class="answer"><label id="b_text" for="b"></label></input>
-                </li>
-                <li>
-                    <input type="radio" id="c" name="answer " class="answer"><label id="c_text" for="c"></label></input>
-                </li>
-                <li>
-                    <input type="radio" id="d" name="answer" class="answer"><label id="d_text" for="d"></label></input>
-                </li>
-            </ul>
-        </div>
-        <button type="submit" id="submit">submit</button>
+        <form action="">
+            <div class="quiz-header">
+                <h2 id="question">Question text</h2>
+
+                <ul>
+                    <li>
+                        <input value="a" type="radio" id="a" name="answer" class="answer"><label id="a_text"
+                            for="a"></label></input>
+                    </li>
+                    <li>
+                        <input value="b" type="radio" id="b" name="answer" class="answer"><label id="b_text"
+                            for="b"></label></input>
+                    </li>
+                    <li>
+                        <input value="c" type="radio" id="c" name="answer" class="answer"><label id="c_text"
+                            for="c"></label></input>
+                    </li>
+                    <li>
+                        <input value="d" type="radio" id="d" name="answer" class="answer"><label id="d_text"
+                            for="d"></label></input>
+                    </li>
+                </ul>
+            </div>
+            <button type="submit" id="submit" disabled>submit</button>
+        </form>
     </div>
 </body>
 

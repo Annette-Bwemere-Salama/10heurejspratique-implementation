@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 * {
     box-sizing: border-box;
 }
@@ -7,10 +6,8 @@
 body {
     /* background-image: url("ass.jpg");*/
     background: #ece9e6;
-    background: -webkit-linear-gradient(to right, #ffffff,
-            #ece9e6);
-    background-color: linear-gradient(to right, #ffffff,
-            #ece9e6);
+    background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+    background-color: linear-gradient(to right, #ffffff, #ece9e6);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,14 +16,12 @@ body {
     min-height: 100vh;
 }
 
-
 .mobile-container {
     background-color: white;
     box-shadow: 0 0 5px #3333331a;
     border-radius: 3px;
     overflow: hidden;
     width: 400px;
-
 }
 
 header {
@@ -54,7 +49,7 @@ header button {
 
 .fav-container {
     background-color: rgb(233, 190, 255);
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 1rem;
     text-align: center;
 }
 
@@ -106,7 +101,6 @@ img {
     padding: 0.25rem 1rem;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
-
 }
 
 .meal-header img {
