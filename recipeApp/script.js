@@ -30,21 +30,31 @@ addMeal(mealData, random = false) {
 
         meal.innerHTML = `
             <div class="meal-header">
-                ${random ? `
-                  <div class="meal">
+                ${
+                    random
+                       ? `
                 <span class="random">
                     Recette aléatoire
-                </span>` : '' }
-                <img 
+                </span>`
+                           : ""
+                }
+                <img
                     src="${mealData.strMealThumb}"
-                    alt="${mealData.meal}"
+                    alt="${mealData.strMeal}"
                 />
                 </div>
                 <div class="meal-body">
                     <h4>${mealData.meal}</h4>
-                    <button class="fav-btn">
+                    <button class="fav-btn" >
                         <i  class="fas fa-heart"></i>
                     </button>
                 </div>
-            `
+            `;
+    
+    meals.querySelector(".meal-body .fav-btn").
+        addEventListener("click", () => {
+            alert("hello");
+        
+        });
+    meals.appendChild(meal);
 }
